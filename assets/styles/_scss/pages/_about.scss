@@ -1,0 +1,41 @@
+.about{
+   
+    margin-top: 5rem;
+    &__image{
+        padding-bottom: 4rem;
+    }
+   &__text{
+       letter-spacing: .2rem;
+   }
+}
+
+.about__title{
+    color: $color-primary;
+    letter-spacing: .4rem;
+}
+
+@include respond-to(tablet-large) {
+    .about{
+        background: $color-mission;
+        &__title{
+            padding-top: 4rem;
+        }
+    }
+    
+   .about__image{
+     display: block;
+     margin:  0 auto;
+     padding-top: 2rem;
+
+   }
+   .about__description{
+       background: $color-white;
+       box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+   }
+   .about__text{
+       padding: 0 8rem;
+   }
+   .container{
+       width: 90%;
+   }
+}

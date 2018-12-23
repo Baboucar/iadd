@@ -1,0 +1,80 @@
+.donate__title{
+    color: $color-primary;
+    margin: 4rem 0;
+    letter-spacing: .4rem;
+}
+.support--title{
+    color: $color-tertiary;
+}
+.volunteer__description{
+    letter-spacing: .2rem;
+}
+
+
+.card-support{
+  
+    background: $color-tertiary;
+    color: $color-white;
+    
+    &__icon{
+       display: block;
+       margin: 0 auto;
+       padding-top: 4rem;
+       position: relative;
+       z-index: -1;
+       
+    }
+    &__description{
+        padding-bottom: 2rem;
+        font-size: 0.9375rem;
+    }
+    &--address{
+        margin:0;
+    }
+
+    
+}
+.card__title--online{
+    color: $color-primary;
+}
+
+.card--online{
+    background:#f4ce50c4;
+   
+    margin-top: 0;
+}
+
+.card--phone{
+    background: #254151de;
+     color: $color-white;
+}
+.card--email{
+    background: #45b29dd6;
+    color: $color-white;
+}
+@include respond-to(tablet-large) {
+ .grid__item{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 4rem;
+     
+     margin-top: 4rem;
+ }
+  .volunteer__description{
+   
+
+  }
+ .support__image{
+    
+ }
+ .description__title{
+    color: $color-primary;
+ }
+ .donate__cards{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ .card-support__icon{
+     z-index: 1;
+ }
+}

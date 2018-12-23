@@ -1,0 +1,9 @@
+- link: /
+  name: Home
+- link: /about/
+  name: Who We Are
+- link: /support/
+  name: Support Us
+- link: /contact/
+  name: Contact
+  
