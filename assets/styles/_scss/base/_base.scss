@@ -1,34 +1,39 @@
-/// default font size for the html 
+/// default font size for the html
 html {
-
     box-sizing: border-box;
 }
 
 // body resets
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ZCOOL XiaoWei', serif;
     font-weight: 100;
     line-height: 1.7;
-
 }
-.container{
+
+@font-face {
+    font-family: 'ZCOOL XiaoWei', serif;
+    src: url("./fonts/ZCOOLXiaoWei-Regular.ttf");
+}
+
+.container {
     width: 90%;
     margin: 0 auto;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
 }
-.center-text{
+
+.center-text {
     text-align: center;
 }
 
-.slider{
+.slider {
     position: relative;
     background-image: url(/assets/images/slider.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 600px;
-
 }
